@@ -16,7 +16,6 @@
 			<Item Name="IAction.lvclass" Type="LVClass" URL="../IAction/IAction.lvclass"/>
 			<Item Name="VoltageMeas.lvclass" Type="LVClass" URL="../VoltageMeas/VoltageMeas.lvclass"/>
 		</Item>
-		<Item Name="Alarms" Type="Folder"/>
 		<Item Name="Configurations" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="IConfig.lvclass" Type="LVClass" URL="../IConfig/IConfig.lvclass"/>
