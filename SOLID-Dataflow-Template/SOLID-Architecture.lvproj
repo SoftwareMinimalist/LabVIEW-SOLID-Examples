@@ -13,22 +13,24 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Actions" Type="Folder">
-			<Item Name="IAction.lvclass" Type="LVClass" URL="../IAction/IAction.lvclass"/>
 			<Item Name="VoltageMeas.lvclass" Type="LVClass" URL="../VoltageMeas/VoltageMeas.lvclass"/>
 		</Item>
 		<Item Name="Configurations" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="IConfig.lvclass" Type="LVClass" URL="../IConfig/IConfig.lvclass"/>
 			<Item Name="ConfigA.lvclass" Type="LVClass" URL="../ConfigA/ConfigA.lvclass"/>
 			<Item Name="ConfigB.lvclass" Type="LVClass" URL="../ConfigB/ConfigB.lvclass"/>
 		</Item>
+		<Item Name="Interfaces" Type="Folder">
+			<Item Name="IAction.lvclass" Type="LVClass" URL="../IAction/IAction.lvclass"/>
+			<Item Name="IConfig.lvclass" Type="LVClass" URL="../IConfig/IConfig.lvclass"/>
+			<Item Name="IReference.lvclass" Type="LVClass" URL="../IReference/IReference.lvclass"/>
+			<Item Name="IResult.lvclass" Type="LVClass" URL="../IResult/IResult.lvclass"/>
+		</Item>
 		<Item Name="References" Type="Folder">
 			<Item Name="DMM.lvclass" Type="LVClass" URL="../DMM/DMM.lvclass"/>
-			<Item Name="IReference.lvclass" Type="LVClass" URL="../IReference/IReference.lvclass"/>
 		</Item>
 		<Item Name="Results" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="IResult.lvclass" Type="LVClass" URL="../IResult/IResult.lvclass"/>
 			<Item Name="CurrentResult.lvclass" Type="LVClass" URL="../CurrentResult/CurrentResult.lvclass"/>
 			<Item Name="VoltageResult.lvclass" Type="LVClass" URL="../VoltageResult/VoltageResult.lvclass"/>
 		</Item>
