@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="20008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -21,11 +21,11 @@
 			<Item Name="DMM.lvclass" Type="LVClass" URL="../DMM/DMM.lvclass"/>
 		</Item>
 		<Item Name="Interfaces" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="IAction.lvclass" Type="LVClass" URL="../IAction/IAction.lvclass"/>
-			<Item Name="IAlarm.lvclass" Type="LVClass" URL="../Alarm/IAlarm.lvclass"/>
 			<Item Name="IConfig.lvclass" Type="LVClass" URL="../IConfig/IConfig.lvclass"/>
-			<Item Name="IReference.lvclass" Type="LVClass" URL="../IReference/IReference.lvclass"/>
 			<Item Name="IResult.lvclass" Type="LVClass" URL="../IResult/IResult.lvclass"/>
+			<Item Name="IRef.lvclass" Type="LVClass" URL="../IReference/IRef.lvclass"/>
 		</Item>
 		<Item Name="Results" Type="Folder">
 			<Item Name="CurrentResult.lvclass" Type="LVClass" URL="../CurrentResult/CurrentResult.lvclass"/>
